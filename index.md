@@ -5,8 +5,8 @@
             margin-top: 30px;
             margin-left: auto;
             margin-right: auto;
-            width: 70%;
-            height: 300px;
+            width: 90%;
+            height: 700px;
         }
     </style>
     <body>
