@@ -3,18 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* "row style" is flexible size and aligns pictures in center */
-.row {
-    align-items: center;
-    display: flex;
-  }
-  
-  /* "column style" is one-third of the width with padding */
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-
   body {
     --bg-color: #e5a484 !important;
     --bg-color-light: #d69675; 
@@ -71,17 +59,18 @@
       font-family: 'Fira Mono', monospace;
       font-size:1em;
   }
-  input[type=text], input[type=password] {
-      font-family: 'Fira Mono', monospace;
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-      box-shadow: 0 0 0.5em #000;
-      border-radius: 0.5em;
-  }
+
+  // input[type=text], input[type=password] {
+  //     font-family: 'Fira Mono', monospace;
+  //     width: 100%;
+  //     padding: 12px 20px;
+  //     margin: 8px 0;
+  //     display: inline-block;
+  //     border: 1px solid #ccc;
+  //     box-sizing: border-box;
+  //     box-shadow: 0 0 0.5em #000;
+  //     border-radius: 0.5em;
+  // }
   button {
     align-self: center;
     font-family: 'Fira Mono', monospace;
@@ -132,5 +121,5 @@
     padding: 8px;
     font-size: 15px;
     font-family: 'Fira Mono', monospace !important;
-    color: #ffffff !important;;
+    color: #2a1702 !important;;
   }
